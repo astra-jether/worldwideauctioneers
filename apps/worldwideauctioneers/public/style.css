@@ -1,0 +1,27 @@
+#dynamic-filter {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#dynamic-filter select {
+    width: 100%;
+    max-width: 300px; /* Adjust width as necessary */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 16px; /* Adjust font size as necessary */
+    line-height: 1.5;
+}
+
+#dynamic-filter select:focus {
+    outline: none;
+    border-color: #66afe9;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+
+/* You can add styles for other filter elements such as checkboxes, radio buttons, etc. */
